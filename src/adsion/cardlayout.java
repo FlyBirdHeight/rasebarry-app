@@ -10,6 +10,7 @@ public class cardlayout extends JFrame implements ActionListener{
     JButton jb2;
     JButton jb3;
     JButton jb4;
+    Image img;
     Panel cardPanel = new Panel();
     Panel controlpaPanel = new Panel();
     JPanel p_1=null,p_2=null,p_3=null,p_4=null;
@@ -20,10 +21,20 @@ public class cardlayout extends JFrame implements ActionListener{
         cardPanel.setLayout(card);
         String arr[] = {"二维码","店内客流查看","订单查看","其他信息设置"};
         p_1 = new JPanel();
+        p_1.setLayout(null);
+        p_1.setBounds(0,0,500,300);
+        ImageIcon img = new ImageIcon("C:/Users/jj/Desktop/aevzqgdrbhctlxonmwjyfipuk.png");
+        img.setImage(img.getImage().getScaledInstance(270,270,Image.SCALE_DEFAULT));
+        JLabel jl1 = new JLabel();
+        jl1.setIcon(img);
+        jl1.setBounds(105,0,270,270);
+        p_1.add(jl1);
+
         p_2 = new JPanel();
+
         p_3 = new JPanel();
         p_4 = new JPanel();
-        p_1.add(new JLabel("JPanel_1"));
+
         p_2.add(new JLabel("JPanel_2"));
         p_3.add(new JLabel("JPanel_3"));
         p_4.add(new JLabel("JPanel_4"));
@@ -45,7 +56,7 @@ public class cardlayout extends JFrame implements ActionListener{
         controlpaPanel.add(jb4);
         Container container = getContentPane();
         container.add(cardPanel,BorderLayout.CENTER);
-        container.add(controlpaPanel,BorderLayout.SOUTH);
+        container.add(controlpaPanel,BorderLayout.NORTH);
         setSize(500,350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
