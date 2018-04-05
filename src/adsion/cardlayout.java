@@ -15,7 +15,7 @@ public class cardlayout extends JFrame implements ActionListener{
     Panel controlpaPanel = new Panel();
     JPanel p_1=null,p_2=null,p_3=null,p_4=null;
     CardLayout card = new CardLayout();
-
+    JTextField jtf2;
     public cardlayout(){
         super("码立方");
         cardPanel.setLayout(card);
@@ -28,6 +28,7 @@ public class cardlayout extends JFrame implements ActionListener{
         JLabel jl1 = new JLabel();
         jl1.setIcon(img);
         jl1.setBounds(105,0,270,270);
+        jtf2 = new JTextField(10);
         p_1.add(jl1);
 
         p_2 = new JPanel();
@@ -37,7 +38,8 @@ public class cardlayout extends JFrame implements ActionListener{
 
         p_2.add(new JLabel("JPanel_2"));
         p_3.add(new JLabel("JPanel_3"));
-        p_4.add(new JLabel("JPanel_4"));
+        p_4.add(new JLabel("一维码录入"));
+        p_4.add(jtf2);
         cardPanel.add(p_1,"p1");
         cardPanel.add(p_2,"p2");
         cardPanel.add(p_3,"p3");
