@@ -23,7 +23,7 @@ public class cardlayout extends JFrame implements ActionListener{
         p_1 = new JPanel();
         p_1.setLayout(null);
         p_1.setBounds(0,0,500,300);
-        ImageIcon img = new ImageIcon("C:/Users/jj/Desktop/aevzqgdrbhctlxonmwjyfipuk.png");
+        ImageIcon img = new ImageIcon("./aevzqgdrbhctlxonmwjyfipuk.png");
         img.setImage(img.getImage().getScaledInstance(270,270,Image.SCALE_DEFAULT));
         JLabel jl1 = new JLabel();
         jl1.setIcon(img);
