@@ -10,16 +10,20 @@ public class cardlayout extends JFrame implements ActionListener{
     JButton jb2;
     JButton jb3;
     JButton jb4;
+    JButton jb5;
+    JButton jb6;
+    JButton jb7;
     Image img;
     Panel cardPanel = new Panel();
     Panel controlpaPanel = new Panel();
-    JPanel p_1=null,p_2=null,p_3=null,p_4=null;
+    JPanel p_1=null,p_2=null,p_3=null,p_4=null,p_5=null,p_6=null,p_7=null;
     CardLayout card = new CardLayout();
     JTextField jtf2;
+    public static String name;
     public cardlayout(){
         super("码立方");
         cardPanel.setLayout(card);
-        String arr[] = {"二维码","店内客流查看","订单查看","其他信息设置"};
+        String arr[] = {"二维码","店内客流查看","订单查看","商品信息录入","音乐设置","收益情况","通知查看"};
         p_1 = new JPanel();
         p_1.setLayout(null);
         p_1.setBounds(0,0,500,300);
@@ -32,34 +36,55 @@ public class cardlayout extends JFrame implements ActionListener{
         p_1.add(jl1);
 
         p_2 = new JPanel();
-
         p_3 = new JPanel();
         p_4 = new JPanel();
+        p_5 = new JPanel();
+        p_6 = new JPanel();
+        p_7 = new JPanel();
 
-        p_2.add(new JLabel("JPanel_2"));
-        p_3.add(new JLabel("JPanel_3"));
+        p_2.add(new JLabel("店内客流查看"));
+        p_3.add(new JLabel("订单查看"));
         p_4.add(new JLabel("一维码录入"));
+        p_5.add(new JLabel("音乐设置"));
+        p_6.add(new JLabel("收益情况"));
+        p_7.add(new JLabel("通知查看"));
+
         p_4.add(jtf2);
         cardPanel.add(p_1,"p1");
         cardPanel.add(p_2,"p2");
         cardPanel.add(p_3,"p3");
         cardPanel.add(p_4,"p4");
+        cardPanel.add(p_5,"p5");
+        cardPanel.add(p_6,"p6");
+        cardPanel.add(p_7,"p7");
+
         jb1 = new JButton(arr[0]);
         jb2 = new JButton(arr[1]);
         jb3 = new JButton(arr[2]);
         jb4 = new JButton(arr[3]);
+        jb5 = new JButton(arr[4]);
+        jb6 = new JButton(arr[5]);
+        jb7 = new JButton(arr[6]);
         jb1.addActionListener(this);
         jb2.addActionListener(this);
         jb3.addActionListener(this);
         jb4.addActionListener(this);
+        jb5.addActionListener(this);
+        jb6.addActionListener(this);
+        jb7.addActionListener(this);
+
         controlpaPanel.add(jb1);
         controlpaPanel.add(jb2);
         controlpaPanel.add(jb3);
         controlpaPanel.add(jb4);
+        controlpaPanel.add(jb5);
+        controlpaPanel.add(jb6);
+        controlpaPanel.add(jb7);
+
         Container container = getContentPane();
         container.add(cardPanel,BorderLayout.CENTER);
         container.add(controlpaPanel,BorderLayout.NORTH);
-        setSize(500,350);
+        setSize(700,350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setVisible(true);
@@ -77,6 +102,15 @@ public class cardlayout extends JFrame implements ActionListener{
         }
         if (e.getSource()==jb4){
             card.show(cardPanel,"p4");
+        }
+        if (e.getSource()==jb5){
+            card.show(cardPanel,"p5");
+        }
+        if (e.getSource()==jb6){
+            card.show(cardPanel,"p6");
+        }
+        if (e.getSource()==jb7){
+            card.show(cardPanel,"p7");
         }
     }
 
