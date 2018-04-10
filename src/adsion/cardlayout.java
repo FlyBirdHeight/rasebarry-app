@@ -1,11 +1,17 @@
 package adsion;
 
+import adsion.bean.ShopInfo;
+import adsion.bean.UserInfo;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class cardlayout extends JFrame implements ActionListener{
+    public static UserInfo userInfo;
+    public static String authorization;
+    public static ShopInfo shopInfo;
     JButton jb1;
     JButton jb2;
     JButton jb3;
@@ -80,7 +86,7 @@ public class cardlayout extends JFrame implements ActionListener{
         controlpaPanel.add(jb5);
         controlpaPanel.add(jb6);
         controlpaPanel.add(jb7);
-
+        System.out.println(this.authorization);
         Container container = getContentPane();
         container.add(cardPanel,BorderLayout.CENTER);
         container.add(controlpaPanel,BorderLayout.NORTH);
@@ -114,7 +120,4 @@ public class cardlayout extends JFrame implements ActionListener{
         }
     }
 
-    public static void main(String[] args) {
-        cardlayout kapian = new cardlayout();
-    }
 }

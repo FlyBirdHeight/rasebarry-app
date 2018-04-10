@@ -1,31 +1,19 @@
 package adsion;
 
-import javax.swing.*;
-
-import java.awt.*;
+import adsion.bean.All;
+import adsion.bean.UserInfo;
+import adsion.utils.Http;
 import java.awt.event.ActionListener;
 
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
-import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 
 public class Login {
+    private cardlayout cardlayout;
     public Login(){
         JFrame frame = new JFrame("用户登录");
         JDialog jDialog = new JDialog(frame, "用户登录", true);
@@ -45,7 +33,21 @@ public class Login {
                 String name = user.getText();
                 String password = pwd.getText();
                 System.out.println(password);
-
+                UserInfo users = new UserInfo();
+                users.setEmail(name);
+                users.setPassword(password);
+                All data = Http.jsonPost("http://101.132.71.227/api/login",users);
+                if (data.status.equals("success")){
+                    cardlayout.authorization = data.getToken().getToken_type()+" "+data.getToken().getAccess_token();
+                    cardlayout.userInfo = data.getUserInfo();
+                    new cardlayout();
+                    frame.setVisible(false);
+                }else{
+//                    JOptionPane.showConfirmDialog(null, "账号或密码错误", "登陆失败", JOptionPane.YES_NO_OPTION);
+                    JOptionPane.showMessageDialog(null, "账号或密码错误", "登陆失败",JOptionPane.ERROR_MESSAGE);
+                    user.setText("");
+                    pwd.setText("");
+                }
             }
         });
 
