@@ -1,5 +1,7 @@
 package adsion.bean;
 
+import java.sql.Clob;
+
 public class ShopInfo {
     public int id;
     public String name;

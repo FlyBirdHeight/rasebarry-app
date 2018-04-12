@@ -29,7 +29,6 @@ public class Login {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                Object is[];
                 String name = user.getText();
                 String password = pwd.getText();
                 System.out.println(password);

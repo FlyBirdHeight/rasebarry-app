@@ -1,5 +1,6 @@
 package adsion;
 
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
@@ -21,12 +22,13 @@ class DataReceiver extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
+
         Graphics2D g2d = (Graphics2D) g;
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         int x = 30;
         int y = 100;
-        Font fn = new Font("宋体", Font.BOLD, 22);
-        Font fn2 = new Font("宋体", Font.BOLD, 20);
+        Font fn = new Font("微软雅黑", Font.BOLD, 22);
+        Font fn2 = new Font("微软雅黑", Font.BOLD, 20);
 
         int w = getWidth();
         int h = getHeight();
@@ -34,18 +36,18 @@ class DataReceiver extends JPanel {
         int length = values.size();
 
         g2d.setColor(Color.black);
-        g2d.fillRect(25, 5, 2, 296);
-        g2d.fillRect(25, 300, 370, 2);
-        g2d.fillRect(25, 287, 15, 15);
-        for (int i = 0; i < 19; i++)
+        g2d.fillRect(25, 5, 2, 596);
+        g2d.fillRect(25, 600, 626, 2);
+        g2d.fillRect(25, 586, 15, 15);
+        for (int i = 0; i < 37; i++)
         {
-            g2d.drawString("0", x - 20, 310);
+            g2d.drawString("0", x - 20, 606);
             if (i % 2 == 0 && i / 2 != 0)
             {
-                g2d.drawLine(25 + i * 15, 5, 25 + i * 15, 301);
-                g2d.drawLine(25,  300 - i / 2 * 30, 370, 300 - i / 2 * 30);
-                g2d.drawString(String.valueOf(i / 2), x - 20, 300 - i / 2 * 30);
-                g2d.drawString(String.valueOf(i / 2), x - 5 + i / 2 * 30, 320);
+                g2d.drawLine(25 + i * 15, 5, 25 + i * 15, 601);
+                g2d.drawLine(25,  606 - i / 2 * 30, 600, 606 - i / 2 * 30);
+                g2d.drawString(String.valueOf(i / 2), x - 20, 616 - i / 2 * 30);
+                g2d.drawString(String.valueOf(i / 2), x - 5 + i / 2 * 30, 616);
             }
         }
 
@@ -56,13 +58,13 @@ class DataReceiver extends JPanel {
         }
 
 
-        g2d.setFont(fn2);
-        g2d.setColor(Color.white);
-        g2d.drawString("A", 355, 350);
+//        g2d.setFont(fn2);
+//        g2d.setColor(Color.white);
+//        g2d.drawString("A", 355, 350);
         g2d.setFont(fn);
         g2d.setColor(Color.black);
-        g2d.drawString("Y", 5, 20);
-        g2d.drawString("X", 350, 320);
+        g2d.drawString("Y", 5, 35);
+        g2d.drawString("X", 600, 616);
 //        g2d.fillPolygon(pox,poy,3);
 //        g2d.fillPolygon(poxx,poyy,3);
 //
@@ -122,7 +124,7 @@ class DataReceiver extends JPanel {
 
         // Set frame's close operation and location in the screen.
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 400);
+        frame.setSize(700, 700);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }

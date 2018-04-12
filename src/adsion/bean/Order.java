@@ -1,6 +1,7 @@
 package adsion.bean;
 
 import java.util.Date;
+import java.util.List;
 
 public class Order {
     public UserInfo users;
@@ -13,6 +14,8 @@ public class Order {
     public String get_type;
     public int status;
     public String order_code;
+    public UserInfo userInfo;
+    public List<Goods> goods;
 
     @Override
     public String toString() {
@@ -27,7 +30,25 @@ public class Order {
                 ", get_type='" + get_type + '\'' +
                 ", status=" + status +
                 ", order_code='" + order_code + '\'' +
+                ", userInfo=" + userInfo +
+                ", goods=" + goods +
                 '}';
+    }
+
+    public UserInfo getUserInfo() {
+        return userInfo;
+    }
+
+    public void setUserInfo(UserInfo userInfo) {
+        this.userInfo = userInfo;
+    }
+
+    public List<Goods> getGoods() {
+        return goods;
+    }
+
+    public void setGoods(List<Goods> goods) {
+        this.goods = goods;
     }
 
     public UserInfo getUsers() {

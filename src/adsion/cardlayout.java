@@ -1,12 +1,20 @@
 package adsion;
 
+import adsion.bean.GoodsList;
+import adsion.bean.GoodsLists;
 import adsion.bean.ShopInfo;
 import adsion.bean.UserInfo;
+import adsion.utils.ButtonUi;
+import adsion.utils.Http;
+import com.google.gson.Gson;
+import javafx.scene.control.Button;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.List;
 
 public class cardlayout extends JFrame implements ActionListener{
     public static UserInfo userInfo;
@@ -22,12 +30,22 @@ public class cardlayout extends JFrame implements ActionListener{
     Image img;
     Panel cardPanel = new Panel();
     Panel controlpaPanel = new Panel();
-    JPanel p_1=null,p_2=null,p_3=null,p_4=null,p_5=null,p_6=null,p_7=null;
+    JPanel p_1=null,p_2=null,p_3=null,p_5=null,p_6=null,p_7=null;
+    jpanel1 p_4;
     CardLayout card = new CardLayout();
     JTextField jtf2;
+    Gson gson;
     public static String name;
     public cardlayout(){
         super("码立方");
+
+        gson = new Gson();
+        String shopInfo01 = Http.getInfo("http://101.132.71.227/api/user/getShop/"+userInfo.getId(),authorization);
+        shopInfo = gson.fromJson(shopInfo01,ShopInfo.class);
+
+
+
+
         cardPanel.setLayout(card);
         String arr[] = {"二维码","店内客流查看","订单查看","商品信息录入","音乐设置","收益情况","通知查看"};
         p_1 = new JPanel();
@@ -37,40 +55,48 @@ public class cardlayout extends JFrame implements ActionListener{
         img.setImage(img.getImage().getScaledInstance(270,270,Image.SCALE_DEFAULT));
         JLabel jl1 = new JLabel();
         jl1.setIcon(img);
-        jl1.setBounds(105,0,270,270);
+        jl1.setBounds(200,0,270,270);
         jtf2 = new JTextField(10);
         p_1.add(jl1);
 
-        p_2 = new JPanel();
-        p_3 = new JPanel();
-        p_4 = new JPanel();
+        p_2 = new DataReceiver();
+        p_3 = new jpanel3().jPanel;
+
+        p_4 = new jpanel1();
+
         p_5 = new JPanel();
-        p_6 = new JPanel();
+        p_6 = new jpanel2().panel;
         p_7 = new JPanel();
 
-        p_2.add(new JLabel("店内客流查看"));
-        p_3.add(new JLabel("订单查看"));
-        p_4.add(new JLabel("一维码录入"));
+//        p_3.add(new JLabel("订单查看"));
         p_5.add(new JLabel("音乐设置"));
         p_6.add(new JLabel("收益情况"));
         p_7.add(new JLabel("通知查看"));
 
-        p_4.add(jtf2);
         cardPanel.add(p_1,"p1");
         cardPanel.add(p_2,"p2");
         cardPanel.add(p_3,"p3");
-        cardPanel.add(p_4,"p4");
+        cardPanel.add(p_4.jPanel3,"p4");
         cardPanel.add(p_5,"p5");
         cardPanel.add(p_6,"p6");
         cardPanel.add(p_7,"p7");
 
-        jb1 = new JButton(arr[0]);
-        jb2 = new JButton(arr[1]);
-        jb3 = new JButton(arr[2]);
-        jb4 = new JButton(arr[3]);
-        jb5 = new JButton(arr[4]);
-        jb6 = new JButton(arr[5]);
-        jb7 = new JButton(arr[6]);
+        jb1 = new ButtonUi(arr[0]);
+        jb1.setFont(new Font("微软雅黑", Font.BOLD, 16));
+
+
+        jb2 = new ButtonUi(arr[1]);
+        jb2.setFont(new Font("微软雅黑", Font.BOLD, 16));
+        jb3 = new ButtonUi(arr[2]);
+        jb3.setFont(new Font("微软雅黑", Font.BOLD, 16));
+        jb4 = new ButtonUi(arr[3]);
+        jb4.setFont(new Font("微软雅黑", Font.BOLD, 16));
+        jb5 = new ButtonUi(arr[4]);
+        jb5.setFont(new Font("微软雅黑", Font.BOLD, 16));
+        jb6 = new ButtonUi(arr[5]);
+        jb6.setFont(new Font("微软雅黑", Font.BOLD, 16));
+        jb7 = new ButtonUi(arr[6]);
+        jb7.setFont(new Font("微软雅黑", Font.BOLD, 16));
         jb1.addActionListener(this);
         jb2.addActionListener(this);
         jb3.addActionListener(this);
@@ -86,11 +112,10 @@ public class cardlayout extends JFrame implements ActionListener{
         controlpaPanel.add(jb5);
         controlpaPanel.add(jb6);
         controlpaPanel.add(jb7);
-        System.out.println(this.authorization);
         Container container = getContentPane();
         container.add(cardPanel,BorderLayout.CENTER);
         container.add(controlpaPanel,BorderLayout.NORTH);
-        setSize(700,350);
+        setSize(778,700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setVisible(true);
@@ -107,6 +132,7 @@ public class cardlayout extends JFrame implements ActionListener{
             card.show(cardPanel,"p3");
         }
         if (e.getSource()==jb4){
+//            List<GoodsList> goodsLists=jpanel1.goodsLists();
             card.show(cardPanel,"p4");
         }
         if (e.getSource()==jb5){
@@ -120,4 +146,10 @@ public class cardlayout extends JFrame implements ActionListener{
         }
     }
 
+
+
+    public static void main(String[] args) {
+        new cardlayout();
+
+    }
 }
