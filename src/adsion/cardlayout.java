@@ -55,7 +55,7 @@ public class cardlayout extends JFrame implements ActionListener{
         img.setImage(img.getImage().getScaledInstance(270,270,Image.SCALE_DEFAULT));
         JLabel jl1 = new JLabel();
         jl1.setIcon(img);
-        jl1.setBounds(200,0,270,270);
+        jl1.setBounds(250,100,270,270);
         jtf2 = new JTextField(10);
         p_1.add(jl1);
 
