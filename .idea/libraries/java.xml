@@ -1,23 +1,23 @@
 <component name="libraryTable">
   <library name="java">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../jar/json-lib-2.4-jdk15.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/jna-platform-4.1.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/jna-4.1.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/httpmime-4.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/httpclient-win-4.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/httpcore-4.4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/httpclient-cache-4.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/httpclient-4.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/gson-1.7.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/fluent-hc-4.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/ezmorph-1.0.3.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/commons-logging.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/commons-logging-1.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/commons-lang-2.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/commons-collections-3.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/commons-codec-1.9.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../jar/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fluent-hc-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpmime-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ezmorph-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-cache-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpcore-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jna-platform-4.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jna-4.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-win-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-4.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

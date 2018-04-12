@@ -2,40 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca71308-8b4f-4df7-8741-383c214afd33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/image/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/image/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/Login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/bean/Goods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/bean/GoodsList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/bean/GoodsLists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/bean/Orders.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/bean/Pivot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/javafx/Login2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/utils/Border.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/utils/ButtonUi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adsion/utils/RoundJPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/DataReceiver$1.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/DataReceiver$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/DataReceiver.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/DataReceiver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/Login$1.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/Login$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/Login.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/bean/Order.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/bean/Order.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/bean/ShopInfo.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/bean/ShopInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/cardlayout.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/cardlayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/jpanel1.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/jpanel1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/jpanel2.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/jpanel2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/jpanel3.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/jpanel3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/adsion/utils/Http.class" afterPath="$PROJECT_DIR$/out/production/java/adsion/utils/Http.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.7.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-codec-1.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-collections-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-lang-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ezmorph-1.0.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fluent-hc-4.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gson-1.7.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/httpclient-4.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/httpclient-cache-4.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/httpclient-win-4.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/httpcore-4.4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/httpmime-4.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jna-4.1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jna-platform-4.1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-lib-2.4-jdk15.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/java_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/java.xml" afterPath="$PROJECT_DIR$/.idea/libraries/java.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/DataReceiver.java" afterPath="$PROJECT_DIR$/src/adsion/DataReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/Login.java" afterPath="$PROJECT_DIR$/src/adsion/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/bean/Order.java" afterPath="$PROJECT_DIR$/src/adsion/bean/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/bean/ShopInfo.java" afterPath="$PROJECT_DIR$/src/adsion/bean/ShopInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/cardlayout.java" afterPath="$PROJECT_DIR$/src/adsion/cardlayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/jpanel1.java" afterPath="$PROJECT_DIR$/src/adsion/jpanel1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/jpanel2.java" afterPath="$PROJECT_DIR$/src/adsion/jpanel2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/jpanel3.java" afterPath="$PROJECT_DIR$/src/adsion/jpanel3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adsion/utils/Http.java" afterPath="$PROJECT_DIR$/src/adsion/utils/Http.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,14 +51,10 @@
       <file leaf-file-name="jpanel3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/adsion/jpanel3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="95" column="34" lean-forward="false" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#522#529#0" expanded="true" />
-                <element signature="e#1256#1263#0" expanded="true" />
-                <element signature="e#4773#4774#0" expanded="true" />
-                <element signature="e#4802#4803#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +63,8 @@
       <file leaf-file-name="Pivot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/adsion/bean/Pivot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="665">
+              <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -90,11 +73,10 @@
       <file leaf-file-name="jpanel1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/adsion/jpanel1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
+            <state relative-caret-position="1482">
               <caret line="92" column="8" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#967#978#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,7 +177,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -218,7 +200,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,27 +214,25 @@
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adsion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adsion" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adsion" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
@@ -259,30 +242,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jj/Desktop/大三下/服务外包省赛/源码/java/src/adsion/DataReceiver.java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/httpclient-4.5.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java\src\adsion" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java\lib" />
       <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java\src\adsion\image" />
       <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java\src\adsion" />
       <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java\src\adsion\css" />
       <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java\src\adsion\javafx" />
-      <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jj\Desktop\大三下\服务外包省赛\源码\java\src\adsion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,19 +426,18 @@
       <workItem from="1523372315354" duration="6170000" />
       <workItem from="1523404851071" duration="21338000" />
       <workItem from="1523451712994" duration="12985000" />
+      <workItem from="1523511272736" duration="1330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81880000" />
+    <option name="totallyTimeSpent" value="83210000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -466,11 +445,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41131666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21801706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17750533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -482,7 +460,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -497,14 +477,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adsion/imageTest.java" />
     <entry file="file://$PROJECT_DIR$/src/adsion/jpanel1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#978#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,10 +503,6 @@
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#522#529#0" expanded="true" />
-            <element signature="e#1256#1263#0" expanded="true" />
-            <element signature="e#4773#4774#0" expanded="true" />
-            <element signature="e#4802#4803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,7 +542,6 @@
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#978#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -579,10 +552,6 @@
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#522#529#0" expanded="true" />
-            <element signature="e#1256#1263#0" expanded="true" />
-            <element signature="e#4773#4774#0" expanded="true" />
-            <element signature="e#4802#4803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,7 +591,6 @@
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#978#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -633,10 +601,6 @@
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#522#529#0" expanded="true" />
-            <element signature="e#1256#1263#0" expanded="true" />
-            <element signature="e#4773#4774#0" expanded="true" />
-            <element signature="e#4802#4803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
           <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,33 +853,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/adsion/bean/Pivot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="665">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/adsion/jpanel1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="1482">
           <caret line="92" column="8" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/java/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/adsion/jpanel3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="95" column="34" lean-forward="false" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#522#529#0" expanded="true" />
-            <element signature="e#1256#1263#0" expanded="true" />
-            <element signature="e#4773#4774#0" expanded="true" />
-            <element signature="e#4802#4803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -930,10 +895,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>java:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
